@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__conteiner">
+            <div class="header__logo"><img src="img/logo.png" alt=""></div>
+            <div class="header__items" data-da='.burger,860'>
+               <div class="header__item"><a>Новинки</a></div>
+               <div class="header__item header__menu">
+                  <a>Бренды</a>
+                  <div class="header__sub-menu header-sub">
+                     <a class="header-sub__item">Adidas</a>
+                     <a class="header-sub__item">Nike</a>
+                     <a class="header-sub__item">Puma</a>
+                     <a class="header-sub__item">Adidas</a>
+                     <a class="header-sub__item">Nike</a>
+                     <a class="header-sub__item">Puma</a>
+                  </div>
+               </div>
+               <div class="header__item header__menu"><a>Мужское</a>
+                  <div class="header__sub-menu header-sub">
+                     <a class="header-sub__item">шорти</a>
+                     <a class="header-sub__item">худі</a>
+                     <a class="header-sub__item">футболки</a>
+                  </div>
+               </div>
+               <div class="header__item header__menu"><a>Женское</a>
+                  <div class="header__sub-menu header-sub">
+                     <a class="header-sub__item">шорти</a>
+                     <a class="header-sub__item">худі</a>
+                     <a class="header-sub__item">футболки</a>
+                  </div>
+               </div>
+               <div class="header__item header__menu"><a>Аксессуары</a>
+                  <div class="header__sub-menu header-sub">
+                     <a class="header-sub__item">часи</a>
+                     <a class="header-sub__item">Брослети</a>
+                     <a class="header-sub__item">пугаветси</a>
+                  </div>
+               </div>
+               <div class="header__item"><a>Аккаунт</a></div>
+            </div>
+            <div class="header__paket"><span>0</span></div>
+            <div class="header__burger" onclick="document.querySelector('.header__burger').classList.toggle('_active');
+                                        document.querySelector('.burger').classList.toggle('_active');
+                                        document.querySelector('body').classList.toggle('_hidden')"></div>
+         </div>
+      </header>
+      <div class="burger"></div>
+      <main class="main">
+         <section class="main__body main-body">
+            <div class="main-body__conteiner">
+               <h2 class="main-body__title">Магазин одежды</h2>
+               <h4 class="main-body__text">Бесплатная доставка по Украине</h4>
+               <a href="#" class="main-body__button button">Каталог</a>
+            </div>
+         </section>
+         <section class="main__slider main-slider">
+            <div class="main-slider__conteiner">
+               <div class="main-slider__prev"></div>
+               <div class='main-slider__slider swiper'>
+                  <div class='main-slider__swipper swiper-wrapper'>
+                     <div class='main-slider__slide swiper-slide'>
+                        <img src='img/broKompany/ (1).png' alt='Картинка'>
+                     </div>
+                     <div class='main-slider__slide swiper-slide'>
+                        <img src='img/broKompany/ (2).png' alt='Картинка'>
+                     </div>
+                     <div class='main-slider__slide swiper-slide'>
+                        <img src='img/broKompany/ (3).png' alt='Картинка'>
+                     </div>
+                     <div class='main-slider__slide swiper-slide'>
+                        <img src='img/broKompany/ (4).png' alt='Картинка'>
+                     </div>
+                     <div class='main-slider__slide swiper-slide'>
+                        <img src='img/broKompany/ (5).png' alt='Картинка'>
+                     </div>
+                     <div class='main-slider__slide swiper-slide'>
+                        <img src='img/broKompany/ (6).png' alt='Картинка'>
+                     </div>
+                  </div>
+               </div>
+               <div class="main-slider__next"></div>
+            </div>
+         </section>
+         <section class="main__categorys main-categorys">
+            <div class="main-categorys__conteiner">
+               <div class="main-categorys__item _anim-items">
+                  <h3 class="main-categorys__title">Футболки</h3>
+                  <div class="main-categorys__text">Одноцветные и лёгкие</div>
+                  <div class="main-categorys__buttun button">Смотреть</div>
+               </div>
+               <div class="main-categorys__item _anim-items">
+                  <h3 class="main-categorys__title">Джинсы Levi's</h3>
+                  <div class="main-categorys__text">Скидка 50% на вторую пару</div>
+                  <div class="main-categorys__buttun button">Смотреть</div>
+               </div>
+               <div class="main-categorys__item _anim-items">
+                  <h3 class="main-categorys__title">
+                     Кеды Vans</h3>
+                  <div class="main-categorys__text">Больше сотни моделей
+                  </div>
+                  <div class="main-categorys__buttun button">Смотреть</div>
+               </div>
+            </div>
+         </section>
+         <section class="main__new-product new-product">
+            <div class="new-product__conteiner">
+               <div class="new-product__title"><span>Новые поступления</span></div>
+               <div class="new-product__items">
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (1).jpeg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Кеды Vans</div>
+                     <div class="new-product-item__price">От: <span>500.00</span> грн.</div>
+                  </div>
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (1).jpg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Кеды Converse All Star</div>
+                     <div class="new-product-item__price"><span>799.00</span> грн.</div>
+                  </div>
+                  <div class="new-product__item new-product-item small-price">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (2).jpeg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Кроссовки Adidas Stan Smith</div>
+                     <div class="new-product-item__price">
+                        <p>1,350.00 грн.</p><span>999.00</span> грн.
+                     </div>
+                  </div>
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (2).jpg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Dark Brown Jeans</div>
+                     <div class="new-product-item__price">От: <span>500.00</span> грн.</div>
+                  </div>
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (3).jpeg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Black Hoodie</div>
+                     <div class="new-product-item__price"><span>1.00</span> грн</div>
+                  </div>
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (1).jpeg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Blue Denim Jeans</div>
+                     <div class="new-product-item__price"><span>150.00</span> грн.</div>
+                  </div>
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (2).jpeg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Basic Gray Jeans</div>
+                     <div class="new-product-item__price"><span>150.00</span> грн.</div>
+                  </div>
+                  <div class="new-product__item new-product-item">
+                     <div class="new-product-item__image-conteiner"><img src="img/very products/ (3).jpeg"
+                           class="new-product-item__image"></div>
+                     <div class="new-product-item__name">Red Hoodie</div>
+                     <div class="new-product-item__price"><span>150.00</span> грн.</div>
+                  </div>
+               </div>
+               <div class="new-product__colection product-colection">
+                  <div class="product-colection__body">
+                     <div class="product-colection__title">
+                        Новая коллекция</div>
+                     <div class="product-colection__text">Одежда и аксессуары от брендов Play, Vans, RayBan и Casio
+                     </div>
+                     <div class="product-colection__button button">Смотреть</div>
+                  </div>
+               </div>
+               <div class="new-product__tovar product-tovar">
+                  <div class="product-tovar__item">
+                     <img src="img/icons/ (5).png" alt="" class="product-tovar__image">
+                     <div class="product-tovar__title">Доставка по Украине</div>
+                     <div class="product-tovar__description">Новой Почтой в течение 3-5 дней. При заказе от 1500 грн
+                        бесплатно</div>
+                  </div>
+                  <div class="product-tovar__item">
+                     <img src="img/icons/ (3).png" alt="" class="product-tovar__image">
+                     <div class="product-tovar__title">Доставка в страны СНГ</div>
+                     <div class="product-tovar__description">Укрпочтой или службой доставки DHL в течение 10 дней</div>
+                  </div>
+                  <div class="product-tovar__item">
+                     <img src="img/icons/ (4).png" alt="" class="product-tovar__image">
+                     <div class="product-tovar__title">Возврат товара</div>
+                     <div class="product-tovar__description">Поменяем размер и цвет в течение 14 дней с момента покупки
+                     </div>
+                  </div>
+                  <div class="product-tovar__item">
+                     <img src="img/icons/ (2).png" alt="" class="product-tovar__image">
+                     <div class="product-tovar__title">Удобная оплата</div>
+                     <div class="product-tovar__description">Принимаем платежи с карт любых банков через LiqPay</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__conteiner">
+            <div class="footer__top">
+               <div class="footer__item footer-item">
+                  <div class="footer-item__title">Информация</div>
+                  <div class="footer-item__link">О магазине</div>
+                  <div class="footer-item__link">Оплата</div>
+                  <div class="footer-item__link">Доставка и возврат</div>
+                  <div class="footer-item__link">Контакты</div>
+               </div>
+               <div class="footer__item footer-item">
+                  <div class="footer-item__title">Для неё</div>
+                  <div class="footer-item__link">Футболки</div>
+                  <div class="footer-item__link">Худи</div>
+                  <div class="footer-item__link">Джинсы</div>
+                  <div class="footer-item__link">Обувь</div>
+               </div>
+               <div class="footer__item footer-item">
+                  <div class="footer-item__title">Для него</div>
+                  <div class="footer-item__link">Футболки</div>
+                  <div class="footer-item__link">Худи</div>
+                  <div class="footer-item__link">Джинсы</div>
+                  <div class="footer-item__link">Обувь</div>
+               </div>
+               <div class="footer__share footer-share">
+                  <span>Соцсети</span>
+                  <div class="footer-share__seti">
+                     <a><img src="img/seti/facebook.png" alt=""></a>
+                     <a><img src="img/seti/free-icon-youtube-3938026.png" alt=""></a>
+                     <a><img src="img/seti/free-icon-instagram-3991634.png" alt=""></a>
+                  </div>
+                  <span>Мессенджеры</span>
+                  <div class="footer-share__seti">
+                     <a><img src="img/seti/telegram.png" alt=""></a>
+                     <a><img src="img/seti/viber.png" alt=""></a>
+                     <a><img src="img/seti/whatsapp.png" alt=""></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+   </div>
+   </footer>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/app.js"></script>
+   <script src="js/and-JS/dynamic-adapt.js"></script>
+   <script src="js/and-JS/script.js"></script>
+   <script src="js/and-JS/data-parent.js"></script>
+   <script src="js/and-JS/slider-swiper.js"></script>
+   <script src="js/and-JS/scroll-paralax.js"></script>
+</body>
+
+</html>

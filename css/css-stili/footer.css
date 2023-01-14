@@ -1,0 +1,17 @@
+.footer {
+  color: #333333;
+  /* .footer__conteiner */
+  /* .footer__top */
+  /* .footer__item */
+  /* .footer__share */
+}
+.footer-item {
+  /* .footer-item__title */
+  /* .footer-item__link */
+}
+.footer-share {
+  /* .footer-share__seti */
+}
+.footer-share img {
+  width: 25px;
+}
